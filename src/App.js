@@ -4,7 +4,7 @@ import './App.css';
 class App extends Component {
 
 
-  fizzBuzz = () => {
+  HomeSpotter = () => {
     let numbers = [1]
     let one = 1 
     for ( let i = 0; i < numbers.length; i++){
@@ -37,9 +37,9 @@ class App extends Component {
     return(
       <div style={{ textAlign: 'center' }}>
         <h1 >
-    Function FizzBuzz  
+        Function HomeSpotter 
         </h1>
-      <button onClick={this.fizzBuzz}>Activate FizzBuzz</button>
+      <button onClick={this.HomeSpotter}>Activate HomeSpotter</button>
       </div>
     )
   }
